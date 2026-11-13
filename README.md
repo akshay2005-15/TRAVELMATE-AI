@@ -1,3 +1,4 @@
+
 # ✈️ TRAVELMATE AI
 ### An AI-Powered Autonomous Flight Booking Assistant with Voice and Text Interaction
 
@@ -23,6 +24,30 @@ The application combines Artificial Intelligence, conversational workflows, and 
 - **Booking Validation:** Includes confirmation consent and price-change handling.
 - **Responsive Interface:** Modern frontend designed for different screen sizes.
 
+---
+
+## 📸 Application Screenshots
+
+### 1. Home Page
+![Home Page](screenshots/01-homepage.png)
+
+### 2. Dashboard
+![Dashboard](screenshots/02-dashboard.png)
+
+### 3. AI Chat Assistant
+![AI Chat Assistant](screenshots/03-ai-chat.png)
+
+### 4. Flight Search Results
+![Flight Search Results](screenshots/04-flight-results.png)
+
+### 5. Passenger Details
+![Passenger Details](screenshots/05-passenger-details.png)
+
+### 6. Booking Review
+![Booking Review](screenshots/06-booking-review.png)
+
+---
+
 ## 🛠️ Technology Stack
 
 | Component | Technologies |
@@ -39,32 +64,36 @@ The application combines Artificial Intelligence, conversational workflows, and 
 | Testing | Pytest, JavaScript tests |
 | Version Control | Git and GitHub |
 
+---
+
 ## 🏗️ System Architecture
 
 The application follows a full-stack architecture with separate frontend, backend, AI, and database components.
 
 ```text
-              USER
-                |
-                v
-       REACT FRONTEND
-       (Vite + Tailwind)
-                |
-                v
-        FASTAPI BACKEND
-                |
-       +--------+--------+
-       |        |        |
-       v        v        v
-   AI MODULE  SERVICES  AUTHENTICATION
-       |        |
-       v        v
-   GEMINI API  FLIGHT / BOOKING
-   LANGGRAPH   MANAGEMENT
-                |
-                v
-          SQLITE DATABASE
+                  USER
+                    |
+                    v
+             REACT FRONTEND
+             (Vite + Tailwind)
+                    |
+                    v
+              FASTAPI BACKEND
+                    |
+          +---------+---------+
+          |         |         |
+          v         v         v
+       AI MODULE  SERVICES  AUTHENTICATION
+          |         |
+          v         v
+      GEMINI API  FLIGHT / BOOKING
+      LANGGRAPH   MANAGEMENT
+                    |
+                    v
+              SQLITE DATABASE
 ```
+
+---
 
 ## 📁 Project Structure
 
@@ -98,9 +127,19 @@ TRAVELMATE-AI/
 │   ├── package.json
 │   └── .env.example
 │
+├── screenshots/
+│   ├── 01-homepage.png
+│   ├── 02-dashboard.png
+│   ├── 03-ai-chat.png
+│   ├── 04-flight-results.png
+│   ├── 05-passenger-details.png
+│   └── 06-booking-review.png
+│
 ├── .gitignore
 └── pytest.ini
 ```
+
+---
 
 ## ⚙️ Installation and Setup
 
@@ -213,6 +252,8 @@ http://localhost:5173
 
 You can now explore the TRAVELMATE AI application.
 
+---
+
 ## 🧪 Testing
 
 The project includes backend and frontend tests for important application workflows.
@@ -230,6 +271,8 @@ Frontend production build:
 npm --prefix frontend run build
 ```
 
+---
+
 ## 🔐 Security and Privacy
 
 - API keys and secret credentials are stored in local environment files.
@@ -240,6 +283,8 @@ npm --prefix frontend run build
 
 **Never upload real API keys, passwords, or secret credentials to GitHub.**
 
+---
+
 ## 🚀 Future Enhancements
 
 - Integration with live flight inventory providers.
@@ -249,6 +294,8 @@ npm --prefix frontend run build
 - Travel itinerary recommendations.
 - Deployment to a cloud hosting platform.
 - Additional automated testing and monitoring.
+
+---
 
 ## 👨‍💻 Developer
 
