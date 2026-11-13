@@ -1,0 +1,77 @@
+
+# ==============================
+# Python / Backend
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+env/
+venv/
+ENV/
+
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==============================
+# Secrets and Environment Files
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Databases and Local Data
+# ==============================
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+*.db.bak*
+
+# ==============================
+# Testing and Coverage
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# IDE and Editor Files
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Node.js / React Frontend
+# ==============================
+node_modules/
+dist/
+.vite/
+
+# ==============================
+# Logs and Temporary Files
+# ==============================
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
